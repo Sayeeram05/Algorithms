@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 import java.util.Scanner;
 public class Linear{
@@ -51,5 +50,6 @@ public class Linear{
                 Input.nextLine(); // Clear the input buffer
             }
         }
+        Input.close();
     }
 }
