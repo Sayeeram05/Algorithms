@@ -13,7 +13,7 @@ def Selection(Data):
 print('''
 Selection Sort
     Definition:
-        Selection sort is a simple comparison-based sorting algorithm. It works by dividing the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on the order) element from the unsorted sublist, swapping it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
+        Selection sort is a straightforward, comparison-based sorting algorithm. It divides the list into a sorted and an unsorted region. The sorted region grows from left to right by repeatedly finding the smallest element in the unsorted region, swapping it with the leftmost unsorted element, and moving the boundary one element to the right.
       
     Time Complexity: 
         Best case: O(n^2) even if the list is already sorted.
